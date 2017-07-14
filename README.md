@@ -31,7 +31,7 @@ Note that during the build, a number of unit tests are run . If you want to igno
 $  mvn clean install -Dmaven.test.skip=true
 ```
 
-On conclusion of the build, the uber JAR `weathersimulation-1.0-SNAPSHOT.jar` will be located in the subdirectory `target/`.
+On conclusion of the build, the JAR `weathersimulation-1.0-SNAPSHOT.jar` will be located in the subdirectory `target/`.
 
 Below are the Maven dependencies used in the Weather Simulator Project:
 - Google Gson	- Helper for parsing the response from the web services
