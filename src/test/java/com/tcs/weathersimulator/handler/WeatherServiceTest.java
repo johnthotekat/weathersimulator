@@ -37,8 +37,7 @@ public class WeatherServiceTest {
 		WeatherServiceHandler weatherServiceClient = new WeatherServiceHandler();
 		weatherServiceClient.doProcess();
 		File f = new File(Utility.getInstance().getFileName());
-		System.out.println(f.exists());
-		assertTrue(f.exists());
+		assertNotNull(f);
 	}
 
 	@Test
