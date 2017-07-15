@@ -59,7 +59,7 @@ Below are the Maven dependencies used in the Weather Simulator Project:
 ```
 
 ## Usage
-The assembled JAR can be run anywhere having a JVM providing it's required libraries on the class path.
+The assembled JAR can be run anywhere having a JDK 7+ providing it's required libraries on the class path.
 
 Configure the below parameters in the application.properties 
 
