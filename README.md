@@ -1,4 +1,4 @@
-# Weather Simulator
+# Weather Simulator ![alt text](https://github.com/johnthotekat/weathersimulator/blob/master/doc/index.jpg "Weather Simulator")
 
 Weather Simulator is a Weather Data Simulation application which could be used in a scenario where weather data needs to be simulated. 
 
