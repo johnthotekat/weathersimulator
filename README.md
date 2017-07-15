@@ -70,7 +70,11 @@ Configure the below parameters in the application.properties
 - city_ids : City ID's from OpenWeatherMap city database http://openweathermap.org/help/city_list.txt
 - outputfile : Output file location where the simulated data is to be saved.
 
-You can also include the dependency into your pom.xml .
+Weather Simulator can be implemented in two ways:
+- Standalone mode
+	Building the project and executing the `WeatherServiceHandler.java`  runs the WeatherSimulator in standalone mode.
+- Integrated mode
+	After building the WeatherSimulator with maven locally, the dependency of Weather Simulator can be specified into your pom.xml .
 
 ```xml
 <dependency>
@@ -89,8 +93,6 @@ List<WeatherSimulatorRecord> resultData = weatherService.invokeWeatherDataAPI();
 WeatherSimulationService weatherSimultionService=ServiceFactory.getWeatherSimulationServiceInstance();
 List<WeatherSimulatorRecord> records=weatherSimultionService.generateWeatherSimulationData(resultData);
 ```
-
-The execution of the WeatherSimulator starts from `WeatherServiceHandler.java` .
 
 ## Running the tests
 WeatherServiceHandler.java class can be used to simulate the weather data after the simulator is configured with proper values in the properties file.
