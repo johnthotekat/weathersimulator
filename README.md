@@ -95,8 +95,12 @@ List<WeatherSimulatorRecord> records=weatherSimultionService.generateWeatherSimu
 ```
 
 ## Running the tests
-WeatherServiceHandler.java class can be used to simulate the weather data after the simulator is configured with proper values in the properties file.
+The Junit tests are defined for the two services `WeatherServiceTest.java` and `WeatherSimulationService.java` under the [Test Cases!]( https://github.com/johnthotekat/weathersimulator/tree/master/src/test/java/com/tcs/weathersimulator/handler)
 
+The testcases will run automatically during the build and if you want to skip the test case execution during the run include the skipTest argument in the maven build command:
+```bash
+$  mvn clean install -Dmaven.test.skip=true
+```
 ## Output
 Output is location can be configured in the application.properties.
 
