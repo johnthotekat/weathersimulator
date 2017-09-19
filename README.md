@@ -112,7 +112,7 @@ The file contents are as below :
 - Conditions is either Snow,Rain,Sunny
 - Temperature is in °C 
 - Pressure is in hPa
-- Relative humidity is a%.
+- Relative humidity is a
 
 
 
